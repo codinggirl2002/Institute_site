@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card-container{
+    @apply text-center h-[250px] w-[250px] bg-light rounded-md relative px-2 ml-5;
+}
+.icon-container{
+    @apply w-12 h-12 flex items-center justify-center rounded-full absolute left-24 -top-4;
+}
+
+.domain-container{
+    @apply border-[1px] border-gray-500 rounded-lg w-[200px] h-[200px] p-2 ;
+}
+.domain-button{
+    @apply w-3/4 bg-success1 text-light rounded-full py-1 px-1;
+}
+.domain-p{
+    @apply text-gray1 leading-6 text-sm mt-4 mb-10;
+}
+.course-card{
+    @apply border-[1px] border-gray-500 p-4 rounded-md w-full;
+}
+.course-img{
+    @apply w-full h-[260px] object-cover rounded-md;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "institute_site",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/codinggirl2002/institute_site#readme",
+  "bugs": {
+    "url": "https://github.com/codinggirl2002/institute_site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codinggirl2002/institute_site.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i ./src/input.css -o ./public/style.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
